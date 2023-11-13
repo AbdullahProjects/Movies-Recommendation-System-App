@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d483dbae7bd04032b4b6f34e2504c8a0c376be72a3dbdcb8ec571f896538dc95
-size 64
+similarity_recommender.pkl filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
