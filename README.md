@@ -6,7 +6,7 @@ Live Demo : https://akk-movies-recommendation-system.streamlit.app/
 
 ## About this Project:
 
-This project is developed by using TMDB 500 Movies dataset, download from kaggle, link of dataset: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata. There are 5000 movies in this dataset. Suppose you select 1 movie and it was amazing and you like it, so now you want more movies related to the movie that you have watched. This project will do similar work and recommend you closely related movies that you like.
+Titled "Content Based Movies Recommendation System App" is developed by using TMDB 500 Movies dataset, download from kaggle, link of dataset: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata. There are 5000 movies in this dataset. Suppose you select 1 movie and it was amazing and you like it, so now you want more movies related to the movie that you have watched. This project will do similar work and recommend you closely related movies that you like.
 
 ## Why I built this project:
 
