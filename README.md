@@ -1,14 +1,17 @@
-# Movies Recommendation System App
+# 🔥Movies Recommendation System App
 
 Live Demo : https://akk-movies-recommendation-system.streamlit.app/
 
 ---------------------------------------
 
 ## About this Project:
+
 This project is developed by using TMDB 500 Movies dataset, download from kaggle, link of dataset: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata. There are 5000 movies in this dataset. Suppose you select 1 movie and it was amazing and you like it, so now you want more movies related to the movie that you have watched. This project will do similar work and recommend you closely related movies that you like.
 
 ## Why I built this project:
+
 Today, all popular companies such as: 
+
 <ul>
   <li>Netflix</li>
   <li>Amazon</li>
@@ -16,10 +19,15 @@ Today, all popular companies such as:
   <li>Facebook</li>
   <li>Youtube</li>
   <li>Google etc.</li>
+</ul>
+  
 These all companies use recommended systems in their websites which can be anyone from these types of recommendation system i.e, content-based, collaborative or hybrid (both content-based and collaborative). Where you get similar things that you like most. So, it important for every Machine Learning Engineer to know about it.
 
+---------------------------------------
+
 ## How I built this project:
-<ol>
+
+<ol type="1">
   <li>Download Dataset from Kaggle</li>
   <li>Applying Preprocessing on Dataset: Fill null values, remove duplicates, remove unnecessary features and clean dataet.</li>
   <li>Create "tags" feature which contain all tags such as director of movie, heros, description etc.</li>
@@ -28,3 +36,13 @@ These all companies use recommended systems in their websites which can be anyon
   <li>Then using scikit-learn "cosine similarity", I calculate similarity of each movie with all movies. Cosine Similarity range in between [0,1].</li>
   <li>At the end, I import this cosing similarity variable into binary format, and use it in streamlit app.</li>
 </ol>
+
+---------------------------------------
+
+## Learning Outcomes:
+
+<ul>
+  <li>How to create vectors...</li>
+  <li>How to calculate cosine similarity</li>
+  <li>Model Deployment in Streamlit App</li>
+</ul>
