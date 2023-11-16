@@ -25,7 +25,7 @@ These all companies use recommended systems in their websites which can be anyon
 
 ---------------------------------------
 
-## How I built this project:
+## Steps:
 
 <ol type="1">
   <li>Download Dataset from Kaggle</li>
@@ -46,3 +46,22 @@ These all companies use recommended systems in their websites which can be anyon
   <li>How to calculate cosine similarity</li>
   <li>Model Deployment in Streamlit App</li>
 </ul>
+
+---------------------------------------
+
+## How you can run it on your machine:
+
+First, download all the files and folders from this repository. Then, create virtual environment.
+
+Using Code:
+```py -3 -m venv virtualEnv```
+
+Then, installed all the libraries mentioned in 'requirements.txt' text file. 
+
+Using Code:
+```pip freeze > requirements.txt```
+
+Finally, run this code in terminal to start streamlit app.
+
+Using Code:
+```streamlit run streamlit_app.py```
