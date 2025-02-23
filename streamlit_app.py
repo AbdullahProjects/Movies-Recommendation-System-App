@@ -80,6 +80,3 @@ if st.button("Recommend"):
         st.image(poster[5])
     
 
-# About Developer
-st.header("About the Developer")
-st.write("This app is developed by Abdullah_Khan_Kakar. You can contact me at abdullahkhan4465917@gmail.com")
